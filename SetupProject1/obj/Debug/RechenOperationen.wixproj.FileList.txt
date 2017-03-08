@@ -1,0 +1,7 @@
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\cab1.cab
+obj\Debug\Product.wixobj
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\Rechen Operationen.msi
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\Rechen Operationen.wixpdb
+obj\Debug\RechenOperationen.wixproj.BindContentsFileListnull.txt
+obj\Debug\RechenOperationen.wixproj.BindOutputsFileListnull.txt
+obj\Debug\RechenOperationen.wixproj.BindBuiltOutputsFileListnull.txt

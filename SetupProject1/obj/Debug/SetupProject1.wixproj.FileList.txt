@@ -1,0 +1,7 @@
+obj\Debug\Product.wixobj
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\cab1.cab
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\SetupProject1.msi
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\SetupProject1.wixpdb
+obj\Debug\SetupProject1.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupProject1.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupProject1.wixproj.BindBuiltOutputsFileListnull.txt

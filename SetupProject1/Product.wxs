@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define Fakultät_TargetDir=$(var.Fakultät.TargetDir)?>
+	<Product Id="*" Name="RechenOperationen" Language="1031" Version="1.0.0.0" Manufacturer="Zaag" UpgradeCode="732fa9b6-db07-430a-97a5-37c677d22898">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="RechenOperationen" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="RechenOperationen" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="Fakult_t.exe" Guid="7828520d-2c76-47bf-8230-6a2ddd5357b9">
+			  <File Id="Fakult_t.exe" Name="Fakultaet.exe" Source="$(var.Fakultät_TargetDir)Fakultät.exe" />
+			</Component>
+			<Component Id="Fakult_t.exe.config" Guid="fa5965e1-8bd0-44fe-b0a9-a247f9409b70">
+			  <File Id="Fakult_t.exe.config" Name="Fakultaet.exe.config" Source="$(var.Fakultät_TargetDir)Fakultät.exe.config" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

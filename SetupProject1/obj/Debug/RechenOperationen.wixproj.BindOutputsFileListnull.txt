@@ -1,0 +1,3 @@
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\cab1.cab
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\Rechen Operationen.msi
+C:\Users\dKaestner\Documents\Visual Studio 2012\Projects\Fakultät\SetupProject1\bin\Debug\Rechen Operationen.wixpdb
